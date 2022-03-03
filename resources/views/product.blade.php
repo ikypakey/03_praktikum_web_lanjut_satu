@@ -6,7 +6,7 @@
            echo $nama_produk
           
            ?>
-            <a href= '<?php echo $link ?>' ><br> <button">Klik Saya</button> </a>
+            <a href= '<?php echo $link ?>' ><br> <button>Klik Saya</button> </a>
         </h1>
     </body>
 </html>
