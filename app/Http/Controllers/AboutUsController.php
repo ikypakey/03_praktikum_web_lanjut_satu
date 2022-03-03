@@ -6,5 +6,9 @@ use Illuminate\Http\Request;
 
 class AboutUsController extends Controller
 {
-    //
+    public function aboutUs(){
+        return view ('about-us')
+        ->with ('nama','Muhammad Rizki Mubarok')
+        ->with('nim','2041720001');
+    } 
 }
